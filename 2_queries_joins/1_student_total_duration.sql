@@ -1,3 +1,3 @@
 SELECT SUM(duration) AS total_duration
-FROM students JOIN assignment_submissions ON assignment_submissions.student_id = students.id
+FROM students JOIN assignment_submissions ON student_id = students.id
 WHERE students.name = 'Ibrahim Schimmel';
